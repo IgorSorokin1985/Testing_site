@@ -1,0 +1,57 @@
+.my_footer {
+    background-image: url(media/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.my_center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.my_question {
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.my_img {
+    height: 200px;
+}
+
+.my_answers {
+    color: #005cab;
+    
+    
+}
+
+.answer_text {
+    color: #636455;
+    font-size: 26px;
+    &_green {
+        color: #007a4c;
+        font-size: 26px;
+    }
+
+    &_red {
+        color: #e1134f;
+        font-size: 26px;
+    }
+}
+
+
+
+.question_text {
+    color: #005cab;
+    font-size: 30px;
+}
+
+.invitation {
+    color: #005cab;
+    font-size: 36px;
+}
